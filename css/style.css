@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+}
+.contain{
+
+	font-size: 20px;
+    width: 40%;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:cyan;
+  }
+  
+  .container {
+    background-color: aliceblue;
+    margin-top: 40px;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px;
+  }
+  .btn{
+      background-color: #ed6a05;
+      width: 120px;
+      height: 40px;
+      font-size: 18px;
+      border-radius: 6px;
+      font-family: serif;
+      border: none;
+      color: #fff;
+  }
+  .submit{
+    margin-left: 100px;
+  }
+
+footer{
+    margin-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .logo, .contacts, .careers {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .logo, .contacts, .careers {
+        justify-content: space-evenly;
+    }
+}
